@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Works | 個人作品</title>
+	
+    <!-- initialize the SDK after all desired features are loaded -->
+
+    <style media="screen">
+	@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+	@import url(js/aos/aos.css);
+	@import url(js/lightbox/lightbox.min.css);
+	@import url(css/index.css);
+    </style>
+	
+	<script src="js/jquery-1.12.4.min.js"></script>
+	<script src="js/lightbox/lightbox.min.js"></script>
+	<script src="js/aos/aos.js"></script>
+  </head>
+  <body>
+  
+	<div id="header" >Works | 個人作品</div>
+  
+	<div class="box">
+      <h1>iOS 多群組式排程表<a class="btn" target="_blank" href="https://github.com/anxhuang/iOS_Projects">OPEN LINK</a></h1>
+      <h3>Xcode、Swift、Firebase</h3>
+	  <p>
+		<ul>
+			<li>拖移式直覺化設計</li>
+			<li>資訊即時自動更新</li>
+			<li>提供預定排程提醒</li>
+		</ul>
+	  </p>
+	  <div id="shots">
+		<a href="img/o/ios-0.png" data-lightbox="ios" data-title="個人月總表與日總表"><img src="img/s/ios-0.png"></a>
+		<a href="img/o/ios-1.png" data-lightbox="ios" data-title="群組排程管理"><img src="img/s/ios-1.png"></a>
+		<a href="img/o/ios-2.png" data-lightbox="ios" data-title="個人化主題色與提醒"><img src="img/s/ios-2.png"></a>
+	  </div>
+    </div>
+	
+	<div class="box">
+      <h1>Android 軟體開發練習<a class="btn" target="_blank" href="https://github.com/anxhuang/Android_Practices">OPEN LINK</a></h1>
+      <h3>Android studio、Java</h3>
+	  <p>
+		<ul>
+			<li>迷你問答遊戲</li>
+			<li>動畫與抽獎</li>
+			<li>簡易點餐介面</li>
+		</ul>
+	  </p>
+	  <div id="shots">
+		<a href="img/o/android-0.png" data-lightbox="android" data-title="Mini QuizGame"><img src="img/s/android-0.png"></a>
+		<a href="img/o/android-1.png" data-lightbox="android" data-title="Animation & Thread"><img src="img/s/android-1.png"></a>
+		<a href="img/o/android-2.png" data-lightbox="android" data-title="ListView & Spinner"><img src="img/s/android-2.png"></a>
+	  </div>
+    </div>
+  
+    <div class="box">
+      <h1>興固興業有限公司訂單系統<a class="btn" target="_blank" href="http://ecbag.us.to/shingku/">OPEN LINK</a></h1>
+      <h3>DHTML、PHP、MySQL</h3>
+	  <p>
+		<ul>
+			<li>客戶資料管理</li>
+			<li>訂單流程管理</li>
+			<li>生產資訊統計</li>
+		</ul>
+	  </p>
+	  <div id="shots">
+		<a href="img/o/order-0.png" data-lightbox="order" data-title="客戶列表"><img src="img/s/order-0.png"></a>
+		<a href="img/o/order-1.png" data-lightbox="order" data-title="自訂檢索"><img src="img/s/order-1.png"></a>
+		<a href="img/o/order-2.png" data-lightbox="order" data-title="統計圖表"><img src="img/s/order-2.png"></a>
+	  </div>
+    </div>
+	
+    <div class="box">
+      <h1>鴻達集成工程有限公司網站<a class="btn" target="_blank" href="http://www.homedar.com">OPEN LINK</a></h1>
+      <h3>DHTML、PHP、MySQL</h3>
+	  <p>
+		<ul>
+			<li>多語系形象網頁</li>
+			<li>直覺式編輯後台</li>
+			<li>手機瀏覽介面</li>
+		</ul>
+	  </p>
+	  <div id="shots">
+		<a href="img/o/homedar-0.png" data-lightbox="homedar" data-title="工程實績展示"><img src="img/s/homedar-0.png"></a>
+		<a href="img/o/homedar-1.png" data-lightbox="homedar" data-title="內容編輯模式"><img src="img/s/homedar-1.png"></a>
+		<a href="img/o/homedar-2.png" data-lightbox="homedar" data-title="行動裝置介面"><img src="img/s/homedar-2.png"></a>
+	  </div>
+    </div>
+	
+	<div class="box">
+	      <h1>相關證書<a class="btn" target="_blank" href="https://academy.microsoft.com/en-us/certificates/412A49C6-638F-4D30-B0AC-4D56AD0166F9">OPEN LINK</a></h1>
+      <h3>Java、JSP、Python</h3>
+	  <p>
+		<ul>
+			<li>Java OCP JP 專業級程式設計認證</li>
+			<li>Java OCE JWCD Web整合開發者認證</li>
+			<li>MPP: Introduction to Python for Data Science</li>
+		</ul>
+	  </p>
+	  <div id="shots">
+		<a href="img/o/java-0.png" data-lightbox="certificate" data-title="Java OCP JP certificate"><img src="img/s/java-0.png"></a>
+		<a href="img/o/java-1.png" data-lightbox="certificate" data-title="Java OCE JWCD certificate"><img src="img/s/java-1.png"></a>
+		<a href="img/o/python-0.png" data-lightbox="certificate" data-title="Microsoft Professional Program: Introduction to Python for Data Science"><img src="img/s/python-0.png"></a>
+	  </div>
+    </div>
+
+    <script>
+	//aos
+	AOS.init();
+	$("div, h1, h3, li, img").attr("data-aos","fade-up");
+	
+	//lightbox
+	lightbox.option({
+      'alwaysShowNavOnTouchDevices': true,
+	  'albumLabel': "%1 of %2"
+    })
+    </script>
+	
+  </body>
+</html>
