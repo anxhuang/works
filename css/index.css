@@ -85,8 +85,23 @@ body {
 	}
 	
 	.box h1 {
-		font-size: 1.5em;
+		font-size: 1.1em;
 	}
+	
+	.box h3 {
+		font-size: 0.9em;
+	}
+	.box li {
+		font-size: 0.85em;
+	}
+	
+	.box a.btn { 
+		font-size: 10x;
+		font-weight: bold;
+		width: 3.5em;
+		padding: 2px; 
+		margin: 0 0 0 13px;
+	}	
 	
 	#shots img {
 		width: 80%;
