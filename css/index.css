@@ -45,15 +45,15 @@ body {
 }
 
 .box a.btn { 
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: bold;
-	width: 6em;
+	width: 4.2em;
 	display: inline-block;
 	text-align: center; 
 	background: #039be5; 
 	text-decoration: none; 
 	color: white; 
-	padding: 5px; 
+	padding: 2px; 
 	margin: 0 0 0 20px;
 	border-radius: 4px; 
 	vertical-align: bottom;
